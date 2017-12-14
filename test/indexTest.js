@@ -50,7 +50,7 @@ describe('drivers', function () {
     });
 
     it('does not modify the original driver (it is non-destructive)', function () {
-      deleteFromdriverByKey(driver, 'name');
+      deleteFromDriverByKey(driver, 'name');
 
       expect(driver['name']).to.equal('Sam');
     });
